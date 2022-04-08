@@ -1,4 +1,6 @@
-// VARIABLES ------------------------------------ /
+// ================================================= /
+// VARIABLES
+// ================================================= /
 
 $white: #fff;
 
@@ -16,8 +18,11 @@ $font-stack-secondary: 'Bree Serif', serif;
 
 $max-width: 1000px;
 
-// MIXINS ----------------------------------------- /
+// ================================================= /
+// MIXINS
+// ================================================= /
 
+// Slanted effect
 @mixin skewed {
   position: relative; 
   &::after {
@@ -31,6 +36,8 @@ $max-width: 1000px;
   }
 }
 
+
+// Center containers
 @mixin center {
   width: 90%;
   max-width: $max-width;
